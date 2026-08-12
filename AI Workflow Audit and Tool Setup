@@ -1,0 +1,243 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM8NZD2wpDPa8dIwHQQ2w0E",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sakshammishra2112-byte/flyrank-ml/blob/main/AI%20Workflow%20Audit%20and%20Tool%20Setup\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1edaf35f"
+      },
+      "source": [
+        "# FlyRank AI Internship — Week 1 Assignment 3\n",
+        "\n",
+        "## Workflow Audit & AI Collaboration Setup\n",
+        "\n",
+        "**Name:** Saksham Mishra\n",
+        "**Phase:** Setup\n",
+        "**Assignment:** Workflow Audit\n",
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "fb39a77f"
+      },
+      "source": [
+        "## 1. My Weekly Workflow Audit\n",
+        "\n",
+        "I regularly use AI across studying, software development, project work, research, and internship preparation. I classify tasks based on how much human judgment, verification, and responsibility they require.\n",
+        "\n",
+        "| #  | Recurring task                                                                    | Classification                 | Why                                                                                                                                                                      |\n",
+        "| -- | --------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n",
+        "| 1  | Studying university subjects and preparing exam notes                             | **Collaborate with AI**        | AI helps me understand difficult concepts, structure notes, and practice questions, but I decide what I need to learn and verify important concepts.                     |\n",
+        "| 2  | Solving DSA and programming problems                                              | **Collaborate with AI**        | AI helps me explore approaches, edge cases, and debugging, but I need to understand the algorithm and produce the final solution myself.                                 |\n",
+        "| 3  | Debugging programming assignments and project code                                | **Delegate to AI with review** | AI can quickly identify possible bugs and suggest fixes, but I test the changes and verify the underlying reasoning.                                                     |\n",
+        "| 4  | Developing and improving my ReviewShieldAI project                                | **Collaborate with AI**        | AI helps with architecture, implementation ideas, debugging, and iteration, while I make the final engineering decisions and verify the implementation.                  |\n",
+        "| 5  | Building and improving my portfolio website                                       | **Collaborate with AI**        | AI can accelerate HTML/CSS/JavaScript development and design iterations, but I control the final content, structure, and deployment.                                     |\n",
+        "| 6  | Researching unfamiliar technologies, APIs, and development tools                  | **Delegate to AI with review** | AI gives me a fast starting point, but I verify important technical information against reliable or official documentation.                                              |\n",
+        "| 7  | Writing project documentation and README files                                    | **Delegate to AI with review** | AI is useful for organizing my technical information into clear documentation, but I verify that the final document accurately represents my project.                    |\n",
+        "| 8  | Preparing for technical interviews                                                | **Collaborate with AI**        | AI can simulate interview questions, explain concepts, and critique my answers, while I remain responsible for developing the actual knowledge and communication skills. |\n",
+        "| 9  | Preparing internship applications and project descriptions                        | **Delegate to AI with review** | AI can improve clarity and tailor writing to a role, but all experiences, skills, and achievements must come from me.                                                    |\n",
+        "| 10 | Drafting professional emails and messages                                         | **Delegate to AI with review** | AI helps me make communication clearer and more professional, but I decide what I actually want to communicate.                                                          |\n",
+        "| 11 | Completing an examination or assessment where outside assistance is not permitted | **Just me**                    | The result needs to represent my own knowledge, reasoning, and performance, so I should not delegate the work to AI.                                                     |\n",
+        "| 12 | Making final decisions about my career direction and major project choices        | **Just me**                    | AI can provide perspectives and trade-offs, but these decisions involve my own priorities, responsibilities, and long-term goals.                                        |\n",
+        "\n",
+        "### What I learned from the audit\n",
+        "\n",
+        "The audit shows that I do not want to treat AI as a replacement for my own judgment. The most useful pattern for me is **collaboration with verification**: AI can accelerate research, coding, writing, and learning, but I remain responsible for deciding what is correct and whether the final result meets my requirements.\n",
+        "\n",
+        "I also identified two areas that should remain primarily human-owned: assessments where outside assistance is not allowed and personal career/project decisions.\n",
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "435da83c"
+      },
+      "source": [
+        "## 2. AI Toolkit Setup\n",
+        "\n",
+        "| Tool / Resource                     | Status                             | Evidence to attach         |\n",
+        "| ----------------------------------- | ---------------------------------- | -------------------------- |\n",
+        "| ChatGPT                             | **Completed / To verify**          | Account screenshot         |\n",
+        "| Claude                              | **Completed / To verify**          | Account screenshot         |\n",
+        "| Anthropic Academy                   | **Completed / To verify**          | Enrollment screenshot      |\n",
+        "| AI Fluency: Framework & Foundations | **Module 1 completed / To verify** | Course-progress screenshot |\n",
+        "\n",
+        "The Anthropic **AI Fluency: Framework & Foundations** course is currently free and teaches four core competencies: **Delegation, Description, Discernment, and Diligence**. The course currently lists 14 lectures, approximately 1.1 hours of video, and a quiz.\n",
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "74ac55d8"
+      },
+      "source": [
+        "## 3. Claude Project Configuration\n",
+        "\n",
+        "### Project name\n",
+        "\n",
+        "**Saksham — AI Work & Internship Copilot**\n",
+        "\n",
+        "### Project instructions\n",
+        "\n",
+        "> **Who I am**\n",
+        ">\n",
+        "> I am Saksham Mishra, a B.Tech Computer Science student currently in my 7th semester. I work on software development, AI/ML projects, coding assignments, portfolio development, internship applications, and technical interview preparation.\n",
+        ">\n",
+        "> **My current goals**\n",
+        ">\n",
+        "> 1. Complete my internship assignments with genuine understanding and strong evidence.\n",
+        "> 2. Improve my software development and AI/ML skills through hands-on projects.\n",
+        "> 3. Build and improve my portfolio and projects.\n",
+        "> 4. Prepare effectively for technical interviews and internship opportunities.\n",
+        "> 5. Become better at using AI as a reliable collaborator rather than blindly depending on it.\n",
+        ">\n",
+        "> **How I want you to work**\n",
+        ">\n",
+        "> Be practical, direct, and concise. Explain technical concepts clearly and use examples when useful. Do not simply give me an answer when helping me learn; explain the reasoning when it matters.\n",
+        ">\n",
+        "> Challenge my assumptions when necessary. Identify uncertainty instead of presenting guesses as facts. For current technologies, APIs, tools, internship requirements, or changing information, recommend checking official documentation or reliable current sources.\n",
+        ">\n",
+        "> When helping with code, prioritize correctness, readability, debugging, edge cases, and my understanding of the solution. When helping with applications or professional communication, preserve my actual experience and never invent achievements.\n",
+        ">\n",
+        "> Treat me as the final decision-maker. Help me think, verify, and improve rather than replacing my judgment.\n",
+        "\n",
+        "Claude's current documentation confirms that Project Instructions can be configured specifically for a project and are applied to chats within that project. Free Claude accounts can create Projects as well.\n",
+        "\n",
+        "**Evidence:** Attach a screenshot showing the configured Claude Project and its project instructions.\n",
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "72a737d1"
+      },
+      "source": [
+        "# 4. Three Target Tasks for FL-02 → FL-04\n",
+        "\n",
+        "I selected tasks that I already perform regularly and that provide clear opportunities to measure whether AI is actually improving my workflow.\n",
+        "\n",
+        "## Target Task 1 — ReviewShieldAI Development & Debugging\n",
+        "\n",
+        "**Task:**\n",
+        "Developing, debugging, testing, and improving my ReviewShieldAI project.\n",
+        "\n",
+        "**Classification:** Collaborate with AI\n",
+        "\n",
+        "**Definition of done well:**\n",
+        "\n",
+        "A change is successful when the requested functionality works, existing tests continue to pass, no unrelated functionality is broken, the implementation remains understandable, and I can independently explain the implementation and major design decisions.\n",
+        "\n",
+        "**Measurable success criteria:**\n",
+        "\n",
+        "* 100% of existing relevant tests pass.\n",
+        "* Requested functionality is manually verified where appropriate.\n",
+        "* No known regression is introduced.\n",
+        "* I can explain the root cause, implementation, and trade-offs without relying on AI.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## Target Task 2 — Technical Research & Verification\n",
+        "\n",
+        "**Task:**\n",
+        "Researching unfamiliar technologies, APIs, libraries, and development approaches for my projects.\n",
+        "\n",
+        "**Classification:** Delegate to AI with review\n",
+        "\n",
+        "**Definition of done well:**\n",
+        "\n",
+        "The final research output should provide an accurate recommendation that directly addresses my requirement, distinguish facts from assumptions, and verify important technical claims using authoritative sources where available.\n",
+        "\n",
+        "**Measurable success criteria:**\n",
+        "\n",
+        "* Important technical claims are verified against reliable/official sources.\n",
+        "* Alternatives and trade-offs are identified when relevant.\n",
+        "* The final recommendation directly answers the project requirement.\n",
+        "* I understand the recommendation well enough to explain why I selected it.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## Target Task 3 — Internship & Professional Application Writing\n",
+        "\n",
+        "**Task:**\n",
+        "Creating and refining internship applications, professional messages, and project descriptions.\n",
+        "\n",
+        "**Classification:** Delegate to AI with review\n",
+        "\n",
+        "**Definition of done well:**\n",
+        "\n",
+        "The final communication should accurately represent my real experience, be tailored to the specific opportunity, communicate the most relevant skills clearly, and require only minor editing before submission or sending.\n",
+        "\n",
+        "**Measurable success criteria:**\n",
+        "\n",
+        "* Zero fabricated achievements, skills, or experience.\n",
+        "* All factual claims can be traced to my actual background/projects.\n",
+        "* The message is specifically tailored to the target role/company.\n",
+        "* Final version is ready to send after minor or no edits.\n",
+        "\n",
+        "---"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "a339bb9f"
+      },
+      "source": [
+        "## 5. Evidence Checklist\n",
+        "\n",
+        "Before submitting this assignment, I will verify that I have:\n",
+        "\n",
+        "* [ ] 10+ genuine recurring tasks\n",
+        "* [ ] A classification for every task\n",
+        "* [ ] A one-line rationale for every classification\n",
+        "* [ ] At least two **Just Me** tasks\n",
+        "* [ ] ChatGPT account evidence\n",
+        "* [ ] Claude account evidence\n",
+        "* [ ] Anthropic Academy enrollment evidence\n",
+        "* [ ] Evidence of completing at least the first AI Fluency module\n",
+        "* [ ] Configured Claude Project\n",
+        "* [ ] Screenshot of Claude Project instructions\n",
+        "* [ ] Three specific target tasks\n",
+        "* [ ] Measurable definitions of \"done well\" for all three tasks\n",
+        "\n",
+        "## Conclusion\n",
+        "\n",
+        "This audit helped me identify that my highest-value use of AI is not simply generating answers, but working with AI through a cycle of **delegation, collaboration, verification, and personal judgment**. My three target tasks will allow me to test this approach in future assignments using real work rather than artificial examples."
+      ]
+    }
+  ]
+}
